@@ -1,0 +1,1089 @@
+{
+    "channel_names": {
+        "0": "FLAIR",
+        "1": "T1",
+        "2": "T1ce",
+        "3": "T2"
+    },
+    "labels": {
+        "background": 0,
+        "whole_tumor": [
+            1,
+            2,
+            3
+        ],
+        "tumor_core": [
+            2,
+            3
+        ],
+        "enhancing_tumor": [
+            3
+        ]
+    },
+    "numTraining": 55,
+    "file_ending": ".nii.gz",
+    "name": "BraTS2020",
+    "reference": "https://www.med.upenn.edu/cbica/brats2020/",
+    "release": "0",
+    "description": "Brain Tumor Segmentation 2020",
+    "regions_class_order": [
+        1,
+        2,
+        3
+    ],
+    "train": [
+        {
+            "image": "./imagesTr/BRATS_001_0000.nii",
+            "label": "./labelsTr/BRATS_001.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_001_0001.nii",
+            "label": "./labelsTr/BRATS_001.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_001_0002.nii",
+            "label": "./labelsTr/BRATS_001.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_001_0003.nii",
+            "label": "./labelsTr/BRATS_001.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_002_0000.nii",
+            "label": "./labelsTr/BRATS_002.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_002_0001.nii",
+            "label": "./labelsTr/BRATS_002.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_002_0002.nii",
+            "label": "./labelsTr/BRATS_002.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_002_0003.nii",
+            "label": "./labelsTr/BRATS_002.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_003_0000.nii",
+            "label": "./labelsTr/BRATS_003.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_003_0001.nii",
+            "label": "./labelsTr/BRATS_003.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_003_0002.nii",
+            "label": "./labelsTr/BRATS_003.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_003_0003.nii",
+            "label": "./labelsTr/BRATS_003.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_004_0000.nii",
+            "label": "./labelsTr/BRATS_004.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_004_0001.nii",
+            "label": "./labelsTr/BRATS_004.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_004_0002.nii",
+            "label": "./labelsTr/BRATS_004.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_004_0003.nii",
+            "label": "./labelsTr/BRATS_004.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_005_0000.nii",
+            "label": "./labelsTr/BRATS_005.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_005_0001.nii",
+            "label": "./labelsTr/BRATS_005.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_005_0002.nii",
+            "label": "./labelsTr/BRATS_005.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_005_0003.nii",
+            "label": "./labelsTr/BRATS_005.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_006_0000.nii",
+            "label": "./labelsTr/BRATS_006.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_006_0001.nii",
+            "label": "./labelsTr/BRATS_006.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_006_0002.nii",
+            "label": "./labelsTr/BRATS_006.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_006_0003.nii",
+            "label": "./labelsTr/BRATS_006.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_007_0000.nii",
+            "label": "./labelsTr/BRATS_007.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_007_0001.nii",
+            "label": "./labelsTr/BRATS_007.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_007_0002.nii",
+            "label": "./labelsTr/BRATS_007.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_007_0003.nii",
+            "label": "./labelsTr/BRATS_007.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_008_0000.nii",
+            "label": "./labelsTr/BRATS_008.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_008_0001.nii",
+            "label": "./labelsTr/BRATS_008.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_008_0002.nii",
+            "label": "./labelsTr/BRATS_008.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_008_0003.nii",
+            "label": "./labelsTr/BRATS_008.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_009_0000.nii",
+            "label": "./labelsTr/BRATS_009.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_009_0001.nii",
+            "label": "./labelsTr/BRATS_009.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_009_0002.nii",
+            "label": "./labelsTr/BRATS_009.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_009_0003.nii",
+            "label": "./labelsTr/BRATS_009.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_010_0000.nii",
+            "label": "./labelsTr/BRATS_010.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_010_0001.nii",
+            "label": "./labelsTr/BRATS_010.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_010_0002.nii",
+            "label": "./labelsTr/BRATS_010.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_010_0003.nii",
+            "label": "./labelsTr/BRATS_010.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_011_0000.nii",
+            "label": "./labelsTr/BRATS_011.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_011_0001.nii",
+            "label": "./labelsTr/BRATS_011.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_011_0002.nii",
+            "label": "./labelsTr/BRATS_011.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_011_0003.nii",
+            "label": "./labelsTr/BRATS_011.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_012_0000.nii",
+            "label": "./labelsTr/BRATS_012.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_012_0001.nii",
+            "label": "./labelsTr/BRATS_012.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_012_0002.nii",
+            "label": "./labelsTr/BRATS_012.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_012_0003.nii",
+            "label": "./labelsTr/BRATS_012.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_013_0000.nii",
+            "label": "./labelsTr/BRATS_013.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_013_0001.nii",
+            "label": "./labelsTr/BRATS_013.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_013_0002.nii",
+            "label": "./labelsTr/BRATS_013.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_013_0003.nii",
+            "label": "./labelsTr/BRATS_013.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_014_0000.nii",
+            "label": "./labelsTr/BRATS_014.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_014_0001.nii",
+            "label": "./labelsTr/BRATS_014.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_014_0002.nii",
+            "label": "./labelsTr/BRATS_014.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_014_0003.nii",
+            "label": "./labelsTr/BRATS_014.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_015_0000.nii",
+            "label": "./labelsTr/BRATS_015.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_015_0001.nii",
+            "label": "./labelsTr/BRATS_015.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_015_0002.nii",
+            "label": "./labelsTr/BRATS_015.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_015_0003.nii",
+            "label": "./labelsTr/BRATS_015.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_016_0000.nii",
+            "label": "./labelsTr/BRATS_016.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_016_0001.nii",
+            "label": "./labelsTr/BRATS_016.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_016_0002.nii",
+            "label": "./labelsTr/BRATS_016.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_016_0003.nii",
+            "label": "./labelsTr/BRATS_016.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_017_0000.nii",
+            "label": "./labelsTr/BRATS_017.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_017_0001.nii",
+            "label": "./labelsTr/BRATS_017.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_017_0002.nii",
+            "label": "./labelsTr/BRATS_017.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_017_0003.nii",
+            "label": "./labelsTr/BRATS_017.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_018_0000.nii",
+            "label": "./labelsTr/BRATS_018.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_018_0001.nii",
+            "label": "./labelsTr/BRATS_018.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_018_0002.nii",
+            "label": "./labelsTr/BRATS_018.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_018_0003.nii",
+            "label": "./labelsTr/BRATS_018.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_019_0000.nii",
+            "label": "./labelsTr/BRATS_019.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_019_0001.nii",
+            "label": "./labelsTr/BRATS_019.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_019_0002.nii",
+            "label": "./labelsTr/BRATS_019.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_019_0003.nii",
+            "label": "./labelsTr/BRATS_019.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_020_0000.nii",
+            "label": "./labelsTr/BRATS_020.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_020_0001.nii",
+            "label": "./labelsTr/BRATS_020.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_020_0002.nii",
+            "label": "./labelsTr/BRATS_020.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_020_0003.nii",
+            "label": "./labelsTr/BRATS_020.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_021_0000.nii",
+            "label": "./labelsTr/BRATS_021.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_021_0001.nii",
+            "label": "./labelsTr/BRATS_021.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_021_0002.nii",
+            "label": "./labelsTr/BRATS_021.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_021_0003.nii",
+            "label": "./labelsTr/BRATS_021.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_022_0000.nii",
+            "label": "./labelsTr/BRATS_022.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_022_0001.nii",
+            "label": "./labelsTr/BRATS_022.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_022_0002.nii",
+            "label": "./labelsTr/BRATS_022.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_022_0003.nii",
+            "label": "./labelsTr/BRATS_022.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_023_0000.nii",
+            "label": "./labelsTr/BRATS_023.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_023_0001.nii",
+            "label": "./labelsTr/BRATS_023.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_023_0002.nii",
+            "label": "./labelsTr/BRATS_023.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_023_0003.nii",
+            "label": "./labelsTr/BRATS_023.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_024_0000.nii",
+            "label": "./labelsTr/BRATS_024.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_024_0001.nii",
+            "label": "./labelsTr/BRATS_024.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_024_0002.nii",
+            "label": "./labelsTr/BRATS_024.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_024_0003.nii",
+            "label": "./labelsTr/BRATS_024.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_025_0000.nii",
+            "label": "./labelsTr/BRATS_025.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_025_0001.nii",
+            "label": "./labelsTr/BRATS_025.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_025_0002.nii",
+            "label": "./labelsTr/BRATS_025.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_025_0003.nii",
+            "label": "./labelsTr/BRATS_025.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_026_0000.nii",
+            "label": "./labelsTr/BRATS_026.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_026_0001.nii",
+            "label": "./labelsTr/BRATS_026.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_026_0002.nii",
+            "label": "./labelsTr/BRATS_026.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_026_0003.nii",
+            "label": "./labelsTr/BRATS_026.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_027_0000.nii",
+            "label": "./labelsTr/BRATS_027.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_027_0001.nii",
+            "label": "./labelsTr/BRATS_027.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_027_0002.nii",
+            "label": "./labelsTr/BRATS_027.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_027_0003.nii",
+            "label": "./labelsTr/BRATS_027.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_028_0000.nii",
+            "label": "./labelsTr/BRATS_028.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_028_0001.nii",
+            "label": "./labelsTr/BRATS_028.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_028_0002.nii",
+            "label": "./labelsTr/BRATS_028.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_028_0003.nii",
+            "label": "./labelsTr/BRATS_028.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_029_0000.nii",
+            "label": "./labelsTr/BRATS_029.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_029_0001.nii",
+            "label": "./labelsTr/BRATS_029.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_029_0002.nii",
+            "label": "./labelsTr/BRATS_029.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_029_0003.nii",
+            "label": "./labelsTr/BRATS_029.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_030_0000.nii",
+            "label": "./labelsTr/BRATS_030.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_030_0001.nii",
+            "label": "./labelsTr/BRATS_030.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_030_0002.nii",
+            "label": "./labelsTr/BRATS_030.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_030_0003.nii",
+            "label": "./labelsTr/BRATS_030.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_031_0000.nii",
+            "label": "./labelsTr/BRATS_031.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_031_0001.nii",
+            "label": "./labelsTr/BRATS_031.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_031_0002.nii",
+            "label": "./labelsTr/BRATS_031.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_031_0003.nii",
+            "label": "./labelsTr/BRATS_031.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_032_0000.nii",
+            "label": "./labelsTr/BRATS_032.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_032_0001.nii",
+            "label": "./labelsTr/BRATS_032.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_032_0002.nii",
+            "label": "./labelsTr/BRATS_032.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_032_0003.nii",
+            "label": "./labelsTr/BRATS_032.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_033_0000.nii",
+            "label": "./labelsTr/BRATS_033.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_033_0001.nii",
+            "label": "./labelsTr/BRATS_033.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_033_0002.nii",
+            "label": "./labelsTr/BRATS_033.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_033_0003.nii",
+            "label": "./labelsTr/BRATS_033.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_034_0000.nii",
+            "label": "./labelsTr/BRATS_034.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_034_0001.nii",
+            "label": "./labelsTr/BRATS_034.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_034_0002.nii",
+            "label": "./labelsTr/BRATS_034.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_034_0003.nii",
+            "label": "./labelsTr/BRATS_034.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_035_0000.nii",
+            "label": "./labelsTr/BRATS_035.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_035_0001.nii",
+            "label": "./labelsTr/BRATS_035.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_035_0002.nii",
+            "label": "./labelsTr/BRATS_035.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_035_0003.nii",
+            "label": "./labelsTr/BRATS_035.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_036_0000.nii",
+            "label": "./labelsTr/BRATS_036.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_036_0001.nii",
+            "label": "./labelsTr/BRATS_036.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_036_0002.nii",
+            "label": "./labelsTr/BRATS_036.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_036_0003.nii",
+            "label": "./labelsTr/BRATS_036.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_037_0000.nii",
+            "label": "./labelsTr/BRATS_037.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_037_0001.nii",
+            "label": "./labelsTr/BRATS_037.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_037_0002.nii",
+            "label": "./labelsTr/BRATS_037.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_037_0003.nii",
+            "label": "./labelsTr/BRATS_037.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_038_0000.nii",
+            "label": "./labelsTr/BRATS_038.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_038_0001.nii",
+            "label": "./labelsTr/BRATS_038.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_038_0002.nii",
+            "label": "./labelsTr/BRATS_038.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_038_0003.nii",
+            "label": "./labelsTr/BRATS_038.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_039_0000.nii",
+            "label": "./labelsTr/BRATS_039.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_039_0001.nii",
+            "label": "./labelsTr/BRATS_039.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_039_0002.nii",
+            "label": "./labelsTr/BRATS_039.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_039_0003.nii",
+            "label": "./labelsTr/BRATS_039.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_040_0000.nii",
+            "label": "./labelsTr/BRATS_040.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_040_0001.nii",
+            "label": "./labelsTr/BRATS_040.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_040_0002.nii",
+            "label": "./labelsTr/BRATS_040.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_040_0003.nii",
+            "label": "./labelsTr/BRATS_040.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_041_0000.nii",
+            "label": "./labelsTr/BRATS_041.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_041_0001.nii",
+            "label": "./labelsTr/BRATS_041.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_041_0002.nii",
+            "label": "./labelsTr/BRATS_041.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_041_0003.nii",
+            "label": "./labelsTr/BRATS_041.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_042_0000.nii",
+            "label": "./labelsTr/BRATS_042.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_042_0001.nii",
+            "label": "./labelsTr/BRATS_042.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_042_0002.nii",
+            "label": "./labelsTr/BRATS_042.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_042_0003.nii",
+            "label": "./labelsTr/BRATS_042.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_043_0000.nii",
+            "label": "./labelsTr/BRATS_043.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_043_0001.nii",
+            "label": "./labelsTr/BRATS_043.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_043_0002.nii",
+            "label": "./labelsTr/BRATS_043.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_043_0003.nii",
+            "label": "./labelsTr/BRATS_043.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_044_0000.nii",
+            "label": "./labelsTr/BRATS_044.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_044_0001.nii",
+            "label": "./labelsTr/BRATS_044.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_044_0002.nii",
+            "label": "./labelsTr/BRATS_044.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_044_0003.nii",
+            "label": "./labelsTr/BRATS_044.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_045_0000.nii",
+            "label": "./labelsTr/BRATS_045.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_045_0001.nii",
+            "label": "./labelsTr/BRATS_045.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_045_0002.nii",
+            "label": "./labelsTr/BRATS_045.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_045_0003.nii",
+            "label": "./labelsTr/BRATS_045.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_046_0000.nii",
+            "label": "./labelsTr/BRATS_046.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_046_0001.nii",
+            "label": "./labelsTr/BRATS_046.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_046_0002.nii",
+            "label": "./labelsTr/BRATS_046.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_046_0003.nii",
+            "label": "./labelsTr/BRATS_046.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_047_0000.nii",
+            "label": "./labelsTr/BRATS_047.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_047_0001.nii",
+            "label": "./labelsTr/BRATS_047.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_047_0002.nii",
+            "label": "./labelsTr/BRATS_047.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_047_0003.nii",
+            "label": "./labelsTr/BRATS_047.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_048_0000.nii",
+            "label": "./labelsTr/BRATS_048.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_048_0001.nii",
+            "label": "./labelsTr/BRATS_048.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_048_0002.nii",
+            "label": "./labelsTr/BRATS_048.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_048_0003.nii",
+            "label": "./labelsTr/BRATS_048.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_049_0000.nii",
+            "label": "./labelsTr/BRATS_049.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_049_0001.nii",
+            "label": "./labelsTr/BRATS_049.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_049_0002.nii",
+            "label": "./labelsTr/BRATS_049.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_049_0003.nii",
+            "label": "./labelsTr/BRATS_049.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_050_0000.nii",
+            "label": "./labelsTr/BRATS_050.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_050_0001.nii",
+            "label": "./labelsTr/BRATS_050.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_050_0002.nii",
+            "label": "./labelsTr/BRATS_050.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_050_0003.nii",
+            "label": "./labelsTr/BRATS_050.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_051_0000.nii",
+            "label": "./labelsTr/BRATS_051.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_051_0001.nii",
+            "label": "./labelsTr/BRATS_051.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_051_0002.nii",
+            "label": "./labelsTr/BRATS_051.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_051_0003.nii",
+            "label": "./labelsTr/BRATS_051.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_052_0000.nii",
+            "label": "./labelsTr/BRATS_052.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_052_0001.nii",
+            "label": "./labelsTr/BRATS_052.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_052_0002.nii",
+            "label": "./labelsTr/BRATS_052.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_052_0003.nii",
+            "label": "./labelsTr/BRATS_052.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_053_0000.nii",
+            "label": "./labelsTr/BRATS_053.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_053_0001.nii",
+            "label": "./labelsTr/BRATS_053.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_053_0002.nii",
+            "label": "./labelsTr/BRATS_053.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_053_0003.nii",
+            "label": "./labelsTr/BRATS_053.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_054_0000.nii",
+            "label": "./labelsTr/BRATS_054.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_054_0001.nii",
+            "label": "./labelsTr/BRATS_054.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_054_0002.nii",
+            "label": "./labelsTr/BRATS_054.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_054_0003.nii",
+            "label": "./labelsTr/BRATS_054.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_055_0000.nii",
+            "label": "./labelsTr/BRATS_055.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_055_0001.nii",
+            "label": "./labelsTr/BRATS_055.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_055_0002.nii",
+            "label": "./labelsTr/BRATS_055.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_055_0003.nii",
+            "label": "./labelsTr/BRATS_055.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_056_0000.nii",
+            "label": "./labelsTr/BRATS_056.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_056_0001.nii",
+            "label": "./labelsTr/BRATS_056.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_056_0002.nii",
+            "label": "./labelsTr/BRATS_056.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_056_0003.nii",
+            "label": "./labelsTr/BRATS_056.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_057_0000.nii",
+            "label": "./labelsTr/BRATS_057.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_057_0001.nii",
+            "label": "./labelsTr/BRATS_057.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_057_0002.nii",
+            "label": "./labelsTr/BRATS_057.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_057_0003.nii",
+            "label": "./labelsTr/BRATS_057.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_058_0000.nii",
+            "label": "./labelsTr/BRATS_058.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_058_0001.nii",
+            "label": "./labelsTr/BRATS_058.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_058_0002.nii",
+            "label": "./labelsTr/BRATS_058.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_058_0003.nii",
+            "label": "./labelsTr/BRATS_058.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_059_0000.nii",
+            "label": "./labelsTr/BRATS_059.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_059_0001.nii",
+            "label": "./labelsTr/BRATS_059.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_059_0002.nii",
+            "label": "./labelsTr/BRATS_059.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_059_0003.nii",
+            "label": "./labelsTr/BRATS_059.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_060_0000.nii",
+            "label": "./labelsTr/BRATS_060.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_060_0001.nii",
+            "label": "./labelsTr/BRATS_060.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_060_0002.nii",
+            "label": "./labelsTr/BRATS_060.nii"
+        },
+        {
+            "image": "./imagesTr/BRATS_060_0003.nii",
+            "label": "./labelsTr/BRATS_060.nii"
+        }
+    ],
+    "test": [
+        {
+            "image": "./imagesTs/BRATS_001_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_002_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_003_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_004_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_005_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_006_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_007_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_008_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_009_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_010_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_011_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_012_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_013_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_014_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_015_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_016_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_017_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_018_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_019_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_020_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_021_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_022_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_023_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_024_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_025_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_026_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_027_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_028_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_029_0003.nii"
+        },
+        {
+            "image": "./imagesTs/BRATS_030_0003.nii"
+        }
+    ],
+    "licence": "see https://www.med.upenn.edu/sbia/brats2020/data.html"
+}
